@@ -1,5 +1,7 @@
-# DIP
-## Digital Image Processing
-- This program is coded with C#, visual studio 2010.
-- It can process grey images and color images range from Histogram, Filtering to GrayTransform, Convolution, Palette etc. 
-- Some basic processing is also supported.
+# What is DIP?
+DIP stand fors Digital Image Processing. It is a gui application that provides a sort of basic routines for  image processing including:
+- histogram and transform 
+- image filtering 
+- convolution, 
+- color image palette 
+- and much more
