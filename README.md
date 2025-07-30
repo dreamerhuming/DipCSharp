@@ -7,3 +7,11 @@ DIP stand fors Digital Image Processing. It is a gui application that provides a
 - and much more
 
 It's currently developed using C#, but some day it will be refactored in C++ on Qt platform.
+
+
+# References
+
+## sample images
+path to ./samples \
+[Sample Images](https://eeweb.engineering.nyu.edu/~yao/EL5123/SampleData.html)
+
