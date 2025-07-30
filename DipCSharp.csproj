@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -10,8 +10,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DipCSharp</RootNamespace>
     <AssemblyName>DipCSharp</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -38,6 +39,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -47,6 +49,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -61,91 +64,91 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BinaryForm.cs">
+    <Compile Include="src\BasicProcessing\BinaryForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BinaryForm.Designer.cs">
+    <Compile Include="src\BasicProcessing\BinaryForm.Designer.cs">
       <DependentUpon>BinaryForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ColorChannels.cs">
+    <Compile Include="src\ColorImage\ColorChannels.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ColorChannels.Designer.cs">
+    <Compile Include="src\ColorImage\ColorChannels.Designer.cs">
       <DependentUpon>ColorChannels.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConvolutionForm.cs">
+    <Compile Include="src\BasicProcessing\ConvolutionForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConvolutionForm.Designer.cs">
+    <Compile Include="src\BasicProcessing\ConvolutionForm.Designer.cs">
       <DependentUpon>ConvolutionForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="src\Main\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="src\Main\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="GradianForm.cs">
+    <Compile Include="src\BasicProcessing\GradianForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GradianForm.Designer.cs">
+    <Compile Include="src\BasicProcessing\GradianForm.Designer.cs">
       <DependentUpon>GradianForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="GrayTransForm.cs">
+    <Compile Include="src\BasicProcessing\GrayTransForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GrayTransForm.Designer.cs">
+    <Compile Include="src\BasicProcessing\GrayTransForm.Designer.cs">
       <DependentUpon>GrayTransForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="HistogramForm.cs">
+    <Compile Include="src\BasicProcessing\HistogramForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HistogramForm.Designer.cs">
+    <Compile Include="src\BasicProcessing\HistogramForm.Designer.cs">
       <DependentUpon>HistogramForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="imageClass.cs" />
-    <Compile Include="PaletteForm.cs">
+    <Compile Include="src\Main\imageClass.cs" />
+    <Compile Include="src\ColorImage\PaletteForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PaletteForm.Designer.cs">
+    <Compile Include="src\ColorImage\PaletteForm.Designer.cs">
       <DependentUpon>PaletteForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="src\Main\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RotateForm.cs">
+    <Compile Include="src\GeometricTransform\RotateForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RotateForm.Designer.cs">
+    <Compile Include="src\GeometricTransform\RotateForm.Designer.cs">
       <DependentUpon>RotateForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ZoomForm.cs">
+    <Compile Include="src\GeometricTransform\ZoomForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ZoomForm.Designer.cs">
+    <Compile Include="src\GeometricTransform\ZoomForm.Designer.cs">
       <DependentUpon>ZoomForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="BinaryForm.resx">
+    <EmbeddedResource Include="src\BasicProcessing\BinaryForm.resx">
       <DependentUpon>BinaryForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ColorChannels.resx">
+    <EmbeddedResource Include="src\ColorImage\ColorChannels.resx">
       <DependentUpon>ColorChannels.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConvolutionForm.resx">
+    <EmbeddedResource Include="src\BasicProcessing\ConvolutionForm.resx">
       <DependentUpon>ConvolutionForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="src\Main\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GradianForm.resx">
+    <EmbeddedResource Include="src\BasicProcessing\GradianForm.resx">
       <DependentUpon>GradianForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GrayTransForm.resx">
+    <EmbeddedResource Include="src\BasicProcessing\GrayTransForm.resx">
       <DependentUpon>GrayTransForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HistogramForm.resx">
+    <EmbeddedResource Include="src\BasicProcessing\HistogramForm.resx">
       <DependentUpon>HistogramForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PaletteForm.resx">
+    <EmbeddedResource Include="src\ColorImage\PaletteForm.resx">
       <DependentUpon>PaletteForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -158,10 +161,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="RotateForm.resx">
+    <EmbeddedResource Include="src\GeometricTransform\RotateForm.resx">
       <DependentUpon>RotateForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ZoomForm.resx">
+    <EmbeddedResource Include="src\GeometricTransform\ZoomForm.resx">
       <DependentUpon>ZoomForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -173,6 +176,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="src\app.config" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
@@ -205,6 +209,7 @@
   <ItemGroup>
     <None Include="Resources\移动1.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
