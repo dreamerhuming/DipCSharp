@@ -1,5 +1,9 @@
 # DipCSharp: Basic Digital Image Processing Tool
 
+![Version](https://img.shields.io/badge/Version-1.0.0-green)
+![Language](https://img.shields.io/badge/Language-C%23-purple)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
 A open-source software for editing, analyzing, and transforming digital images with classic algorithms.
 
 ## Overview
