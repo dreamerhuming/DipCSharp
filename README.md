@@ -3,6 +3,7 @@
 ![Version](https://img.shields.io/badge/Version-1.0.0-green)
 ![Language](https://img.shields.io/badge/Language-C%23-purple)
 ![License](https://img.shields.io/badge/License-MIT-blue)
+![Stars](https://img.shields.io/github/stars/dreamerhuming/DipCSharp?style=social)
 
 A open-source software for editing, analyzing, and transforming digital images with classic algorithms.
 
