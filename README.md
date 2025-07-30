@@ -11,7 +11,9 @@ A open-source software for editing, analyzing, and transforming digital images w
 
 DipCSharp focuses on the basic comprehension of **D**igital **I**mage **P**rocessing. It provides a pixel-wise processing suite for Bitmap - the image raw data format, including filtering, convolution, geometric transformation, etc. Ideal for researchers and developers working with image data.
 
-<img src="Resources/dip_main.jpg" alt="图片名称" width="40%" />
+<div align=center>
+  <img src="Resources/dip_main.jpg" alt="dip_main" width="50%" />
+</div>
 
 ## Key features
 - Histogram: analysis, matching, transformations.
