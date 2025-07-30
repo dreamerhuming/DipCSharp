@@ -1,17 +1,31 @@
-# What is DIP?
-DIP stand fors Digital Image Processing. It is a gui application that provides a sort of basic routines for  image processing including:
-- histogram and transform 
-- image filtering 
-- convolution, 
-- color image palette 
-- and much more
+# DipCSharp: Basic Digital Image Processing Tool
 
-It's currently developed using C#, but some day it will be refactored in C++ on Qt platform.
+A open-source software for editing, analyzing, and transforming digital images with classic algorithms.
 
+## Overview
 
-# References
+DipCSharp focuses on the basic comprehension of **D**igital **I**mage **P**rocessing. It provides a pixel-wise processing suite for Bitmap - the image raw data format, including filtering, convolution, geometric transformation, etc. Ideal for researchers and developers working with image data.
 
-## sample images
+<img src="Resources/dip_main.jpg" alt="图片名称" width="40%" />
+
+## Key features
+- Histogram: analysis, matching, transformations.
+- Filtering: gaussian blur, median/average/threshold filtering, gradian filtering.
+- Convolution: edge detection (Prewitt, Sobel, Laplace), user-defined convolutional cores.
+- Geometric transformation: resize, crop, rotate, mirror.
+- Color Space Conversion: RGB, HSV, Grayscale transformations.
+- Format Support: BMP
+
+## Quick Started
+### Build on your own
+```sh
+git clone git@github.com:dreamerhuming/DipCSharp.git
+cd DipCSharp
+# In Visual Studio 2022, open ./DipCSharp.sln
+```
+
+## References
+
+### sample images
 path to ./samples \
 [Sample Images](https://eeweb.engineering.nyu.edu/~yao/EL5123/SampleData.html)
-
