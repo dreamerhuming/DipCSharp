@@ -583,7 +583,7 @@ namespace DipCSharp
             this.MainMenuStrip = this.menuStrip;
             this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "MainForm";
-            this.Text = "Digital Image Processing    胡明    1351200";
+            this.Text = "Digital Image Processing";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.Resize += new System.EventHandler(this.MainForm_Resize);
             this.menuStrip.ResumeLayout(false);
