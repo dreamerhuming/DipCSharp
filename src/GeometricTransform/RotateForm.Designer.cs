@@ -1,4 +1,7 @@
-﻿namespace DipCSharp
+﻿// Copyright (c) 2025 Ming Hu. All rights reserved.
+// Licensed under the MIT License. See LICENSE file in the project root for full license information.
+
+namespace DipCSharp
 {
     partial class RotateForm
     {

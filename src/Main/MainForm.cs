@@ -1,8 +1,5 @@
-﻿/*
- * Creator: Marc Hu
- * E-mail: huming100@163.com
- * GitHub: https://github.com/dreamerhuming
-*/
+﻿// Copyright (c) 2025 Ming Hu. All rights reserved.
+// Licensed under the MIT License. See LICENSE file in the project root for full license information.
 
 using System;
 using System.Collections.Generic;
