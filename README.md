@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![Stars](https://img.shields.io/github/stars/dreamerhuming/DipCSharp?style=social)
 
-A open-source software for editing, analyzing, and transforming digital images with classic algorithms.
+An open-source software for editing, analyzing, and transforming digital images with classic algorithms.
 
 ## Overview
 
